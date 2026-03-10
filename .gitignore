@@ -1,0 +1,196 @@
+# OpenClaw Memory System - Git Ignore Configuration
+# 用于保护敏感信息，同时追踪记忆文件
+
+# ===========================================
+# 🔴 高优先级：敏感信息（严禁提交）
+# ===========================================
+
+# API 密钥和配置文件中的敏感部分
+openclaw.json
+*.env
+.env.local
+.env.*.local
+
+# 数据库文件（包含向量嵌入）
+memory/*.sqlite
+memory/*.db
+*.sqlite
+*.db
+
+# 临时文件和日志
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================================
+# 🟡 中优先级：选择性提交
+# ===========================================
+
+# 大型数据文件（按需提交）
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# 图片文件（按需提交）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.ico
+*.svg
+
+# 文档文件（按需提交）
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# 🟢 低优先级：建议提交（记忆系统核心）
+# ===========================================
+
+# ✅ 以下文件建议提交以追踪记忆历史：
+# - MEMORY.md (长期记忆)
+# - memory/*.md (日常日志)
+# - AGENTS.md, SOUL.md, USER.md (身份配置)
+# - HEARTBEAT.md (心跳配置)
+# - TOOLS.md (工具配置)
+
+# ===========================================
+# 开发相关文件
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# 深度学习
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.hdf5
+models/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 测试和覆盖率
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+
+# ===========================================
+# OpenClaw 特定
+# ===========================================
+
+# 会话转录（包含对话历史，可能含敏感信息）
+.openclaw/sessions/
+.openclaw/transcripts/
+
+# 缓存文件
+.openclaw/cache/
+.openclaw/*.cache
+
+# 临时配置
+.openclaw/*.tmp
+.openclaw/*.bak
+
+# ===========================================
+# 敏感项目文件（根据红线规则）
+# ===========================================
+
+# 未经用户允许不得发布的文件
+# 代码、配置、API 密钥、技能包、数据分析结果等
+# 这些文件默认忽略，需用户明确确认才能提交
+
+# 财务相关
+*invoice*
+*receipt*
+*budget*
+*financial*
+
+# 个人身份信息
+*id_card*
+*passport*
+*bank_card*
+*credit_card*
+
+# 健康相关
+*medical*
+*health*
+*diagnosis*
+
+# ===========================================
+# 结束
+# ===========================================
+
+# 注意：
+# 1. 此配置文件旨在保护敏感信息
+# 2. 记忆文件 (MEMORY.md, memory/*.md) 默认允许提交
+# 3. 提交前请审查内容，确保不包含敏感信息
+# 4. 遵循"红线规则"：未经杨荣允许，严禁发布任何代码或配置
