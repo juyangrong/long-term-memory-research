@@ -75,19 +75,23 @@ try {
     // Git 添加
     log('📝 执行：git add memory/' + dateStr + '.md');
     try {
-        execSync(`git add memory/${dateStr}.md`, { env, encoding: 'utf8' });
-        log('✅ Git add 成功');
+        const addResult = execSync(`git add memory/${dateStr}.md`, { env, encoding: 'utf8' });
+        if (addResult) log(addResult.trim());
+        log('✅ Git add 完成');
     } catch (e) {
-        log('⚠️  没有需要提交的变化或文件已暂存');
+        log('⚠️  Git add 执行异常：' + e.message);
     }
     
     // 检查是否有变化需要提交
+    log('📝 检查 Git 状态...');
     const statusResult = execSync('git status --porcelain', { env, encoding: 'utf8' });
     if (!statusResult.trim()) {
-        log('ℹ️  没有新的变化需要提交');
-        log('✅ 任务完成');
+        log('ℹ️  没有新的变化需要提交 (文件可能已在之前提交)');
+        log('✅ 任务完成 (无新变化)');
         process.exit(0);
     }
+    
+    log('📝 检测到变化：' + statusResult.trim().split('\n').length + ' 个文件');
     
     // Git 提交
     const commitMsg = `docs(memory): 每日记忆日志自动提交 - ${dateStr}`;
