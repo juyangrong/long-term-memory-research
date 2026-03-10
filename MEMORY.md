@@ -155,6 +155,16 @@ clawVet 深度审查（安装后）
 - [x] 安装并配置 GitHub CLI (v2.87.3) ✅
 - [x] GitHub CLI 认证成功 (juyangrong) ✅
 
+**技术分析长期记忆仓库 (yang-analysis)**
+
+- [x] 创建 GitHub 仓库 `juyangrong/yang-analysis` ✅
+- [x] 分类整理分析报告到 5 个目录 ✅
+  - 01-AI 框架分析 (3 个文件)
+  - 02-OpenClaw 系统 (5 个文件)
+  - 03-Skill 安全 (5 个文件)
+  - 05-下载文档 (12 个文件，来自 Downloads)
+- [x] 首次提交并推送到 GitHub ✅ (4882ebe)
+
 **待完成**:
 - [ ] 重启 OpenClaw Gateway 使记忆系统配置生效
 
@@ -176,8 +186,61 @@ clawVet 深度审查（安装后）
 
 ## 重要决策
 
-_暂无_
+### 技术分析工作流 (2026-03-10)
+
+**工作流程**: OpenClaw 分析任务 → 报告生成 → 分类上传到 yang-analysis
+
+```
+用户提出分析需求
+    ↓
+OpenClaw 接收任务并执行分析
+    ↓
+生成分析报告 (.md 格式)
+    ↓
+保存到 workspace
+    ↓
+分类到 yang-analysis 对应目录:
+  - 01-AI 框架分析/  → AI 框架调研报告
+  - 02-OpenClaw 系统/ → OpenClaw 配置和调研
+  - 03-Skill 安全/   → Skill 安全审查报告
+  - 04-其他文档/     → 其他技术文档
+  - 05-下载文档/     → Downloads 目录收集
+    ↓
+Git 提交并推送到 GitHub
+    ↓
+记录到 MEMORY.md (本文件)
+```
+
+**yang-analysis 仓库**: https://github.com/juyangrong/yang-analysis
+
+**用途**: 作为技术分析的长期记忆库，存储所有分析任务生成的报告
+
+**分类规则**:
+- AI 框架调研 → `01-AI 框架分析/`
+- OpenClaw 系统相关 → `02-OpenClaw 系统/`
+- Skill 安全审查 → `03-Skill 安全/`
+- 临时/其他文档 → `04-其他文档/` 或 `05-下载文档/`
+
+**更新命令**:
+```bash
+cd D:\Users\yr.ju.CN1\.openclaw\workspace\yang-analysis
+git add .
+git commit -m "docs: 添加新的分析报告 - <报告主题>"
+git push origin master
+```
 
 ## 个人上下文
 
-_暂无_
+### GitHub 仓库
+
+| 仓库 | URL | 用途 |
+|------|-----|------|
+| **openclaw-memory** | https://github.com/juyangrong/openclaw-memory | OpenClaw 记忆系统版本控制 |
+| **yang-analysis** | https://github.com/juyangrong/yang-analysis | 技术分析报告长期记忆库 |
+
+### 技术栈偏好
+
+- **AI 框架**: LangChain + LangGraph (通用场景)
+- **记忆系统**: OpenClaw 内置记忆系统 (文件 + SQLite)
+- **版本控制**: Git + GitHub (私有仓库)
+- **CLI 工具**: GitHub CLI (gh v2.87.3)
