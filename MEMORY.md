@@ -141,7 +141,36 @@ clawVet 深度审查（安装后）
 
 ## 待办与项目
 
-_暂无_
+### ✅ 已完成 (2026-03-10)
+
+**OpenClaw 记忆系统 Git 版本控制配置**
+
+- [x] 创建 `.gitignore` 保护敏感信息
+- [x] 更新 `openclaw.json` 添加记忆系统配置
+- [x] 创建 `memory/README.md` 版本控制指南
+- [x] Git 首次提交 (ec75781)
+- [x] 添加远程仓库 origin: https://github.com/juyangrong/openclaw-memory.git
+
+**待完成**:
+- [ ] 在 GitHub 创建仓库 `juyangrong/openclaw-memory` (需杨荣操作)
+- [ ] 推送代码到远程仓库
+- [ ] 重启 OpenClaw Gateway 使配置生效
+
+### 📋 配置详情
+
+**记忆系统配置**:
+- 启用混合检索 (FTS + Vector)
+- 向量权重 70%, 文本权重 30%
+- 启用 MMR 去重
+- 会话启动时自动同步
+- 文件监听自动同步 (30 分钟间隔)
+- Session Memory Hook 启用 (归档 15 条消息)
+
+**Git 保护规则**:
+- ❌ 严禁提交：openclaw.json, memory/*.sqlite, .openclaw/sessions/
+- ✅ 允许提交：MEMORY.md, memory/*.md, AGENTS.md, SOUL.md, USER.md
+
+详见 `记忆系统配置状态报告.md`
 
 ## 重要决策
 
