@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志
+*.log
+logs/
+
+# 更新状态 (不上传)
+.update_state.json
+.update_log.md
+
+# 敏感信息
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# 文档构建
+docs/_build/
+docs/.doctrees/
