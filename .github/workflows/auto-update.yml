@@ -2,8 +2,8 @@ name: Auto Update Research
 
 on:
   schedule:
-    - cron: '0 2 */2 * *'  # 每两天凌晨 2 点 (UTC)
-  workflow_dispatch:  # 手动触发
+    - cron: '0 2 */2 * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -27,8 +27,6 @@ jobs:
         run: |
           cd scripts
           python update_research.py --force
-        env:
-          PYTHONPATH: ${{ github.workspace }}
       
       - name: Commit and push if changed
         run: |
