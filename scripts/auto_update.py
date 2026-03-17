@@ -16,8 +16,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # 配置
-WORKSPACE_ROOT = Path(__file__).parent.parent
-RESEARCH_DIR = WORKSPACE_ROOT / "github-memory-research"
+RESEARCH_DIR = Path(__file__).parent.parent  # github-memory-research 目录
+WORKSPACE_ROOT = RESEARCH_DIR.parent  # 上层 workspace 目录
 LOG_FILE = WORKSPACE_ROOT / "update_log.md"
 UPDATE_INTERVAL_DAYS = 2
 
