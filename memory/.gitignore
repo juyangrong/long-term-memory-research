@@ -1,0 +1,13 @@
+# Ignore all parent directory references
+../*
+
+# Ignore nested git repositories (submodules)
+D:\Users\yr.ju.CN1\.openclaw\workspace/
+DeepAnalyze/
+chrome-bookmarks/
+github-memory-research/
+the-agency/
+yang-analysis/
+
+# Only track memory markdown files
+!*.md
