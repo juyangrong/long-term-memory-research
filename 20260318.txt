@@ -1,0 +1,1516 @@
+root":{3 items
+"result":{6 items
+"Code":0
+"IsSuccessful":true
+"Message":"成功"
+"GlobalCode":0
+"ResponseStatus":{2 items
+"Timestamp":1773823154849
+"Ack":"Success"
+}
+"PromotionStrategyList":[10 items
+0:{87 items
+"PromotionID":1231829704
+"Name":"2026-VN-memberday-FLT-200k-27 Mar 10am(HQ)"
+"DisplayName":"Giảm 200.000 VNĐ"
+"ShortName":"Giảm 200.000 VNĐ"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":2
+"CouponTypeID":3
+"StartDate":1773727379364
+"DisableDate":1776704399000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Giảm 200.000 VNĐ"
+"RemarkTmpl":"Giảm 200.000 VNĐ"
+"ShortRemark":"Giảm 200.000 VNĐ"
+"UserProductLineIDs":"1"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":4000000
+"DeductionType":0
+"DeductionAmount":200000
+"ExchangeRate":0.000262075
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+]
+"GenerateCountLeft":8
+"AmountLeft":1800000
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU活动(2515)"
+"Percentage":100
+"CostCenterValue":3144
+}
+]
+"CouponID":0
+"UserProductLineIDsName":"机票"
+"IsLimitTime":"T"
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeTypeID":1
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR019009"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.000262075
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/flights"
+"AppURL":"ctripglobal://FlightSearch"
+"H5URL":"/m/flights"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":9
+"FloatDeductionAmount":0
+"UIDClaimCount":1
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"AmountLimit":1800000
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR019009"
+"IsImportant":true
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+07:00"
+"RemarkWrap":"Giảm 200.000 VNĐ"
+"TripConfig":{6 items
+"UseProductLineId":1
+"State":"INACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[2 items
+0:83
+1:85
+]
+"Locales":[1 item
+0:"VI_VN"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/flights"
+"TripAppUrl":"ctripglobal://FlightSearch"
+"TripH5Url":"/m/flights"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-27 10:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+1:{87 items
+"PromotionID":1743617469
+"Name":"2026-VN-memberday-FLT-680k-27 Mar 10am(HQ)"
+"DisplayName":"Giảm 680.000 VNĐ"
+"ShortName":"Giảm 680.000 VNĐ"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":2
+"CouponTypeID":3
+"StartDate":1773726718309
+"DisableDate":1776704399000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Giảm 680.000 VNĐ"
+"RemarkTmpl":"Giảm 680.000 VNĐ"
+"ShortRemark":"Giảm 680.000 VNĐ"
+"UserProductLineIDs":"1"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":9000000
+"DeductionType":0
+"DeductionAmount":680000
+"ExchangeRate":0.000262003
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+]
+"GenerateCountLeft":5
+"AmountLeft":4080000
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU活动(2515)"
+"Percentage":100
+"CostCenterValue":3144
+}
+]
+"CouponID":0
+"UserProductLineIDsName":"机票"
+"IsLimitTime":"T"
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeTypeID":1
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR019009"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.000262003
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/flights"
+"AppURL":"ctripglobal://FlightSearch"
+"H5URL":"/m/flights"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":6
+"FloatDeductionAmount":0
+"UIDClaimCount":1
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"AmountLimit":4080000
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR019009"
+"IsImportant":true
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+07:00"
+"RemarkWrap":"Giảm 680.000 VNĐ"
+"TripConfig":{6 items
+"UseProductLineId":1
+"State":"INACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[2 items
+0:83
+1:85
+]
+"Locales":[1 item
+0:"VI_VN"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/flights"
+"TripAppUrl":"ctripglobal://FlightSearch"
+"TripH5Url":"/m/flights"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-27 10:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+2:{88 items
+"PromotionID":1197426804
+"Name":"【2026 KR】 Apr Tripchance HTL 50%(1+1) (90K)"
+"DisplayName":"50% off "
+"ShortName":"50% off "
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":3
+"CouponTypeID":1
+"StartDate":1773722797859
+"DisableDate":1776005999000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":2
+"Remark":"50% off up to 90K when user booking over 2 nights "
+"RemarkTmpl":"50% off up to 90K when user booking over 2 nights "
+"ShortRemark":"50% off "
+"UserProductLineIDs":"2"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[1 item
+0:{7 items
+"DeductionType":1
+"DeductionAmount":50
+"DeductionAmountLimit":90000
+"ExchangeRate":0.004613
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+]
+"GenerateCountLeft":0
+"CountLeft":5
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU 区域市场-韩国(1838)"
+"Percentage":100
+"CostCenterValue":2374
+}
+]
+"CouponID":0
+"CouponCode":"gtkkqihcym"
+"UserProductLineIDsName":"酒店"
+"IsLimitTime":"F"
+"CouponStartDate":1773722797859
+"CouponEndDate":1776005999000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773722797859
+"CouponEndDate":1776005999000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR044331"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.004613
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/hotels"
+"AppURL":"ctripglobal://hotel/hotelSearch"
+"H5URL":"/m/hotels"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"CountLimit":5
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR044331"
+"IsImportant":false
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+09:00"
+"RemarkWrap":"50% off up to 90K when user booking over 2 nights "
+"TripConfig":{6 items
+"UseProductLineId":2
+"State":"ACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[2 items
+0:83
+1:85
+]
+"Locales":[1 item
+0:"KO_KR"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/hotels"
+"TripAppUrl":"ctripglobal://hotel/hotelSearch"
+"TripH5Url":"/m/hotels"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-17 00:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+3:{87 items
+"PromotionID":1403993285
+"Name":"2026-VN-memberday-FLT-100k-27 Mar 10am(HQ)"
+"DisplayName":"Giảm 100.000 VNĐ"
+"ShortName":"Giảm 100.000 VNĐ"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":2
+"CouponTypeID":3
+"StartDate":1773727761505
+"DisableDate":1776704399000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Giảm 100.000 VNĐ"
+"RemarkTmpl":"Giảm 100.000 VNĐ"
+"ShortRemark":"Giảm 100.000 VNĐ"
+"UserProductLineIDs":"1"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":1800000
+"DeductionType":0
+"DeductionAmount":100000
+"ExchangeRate":0.000262075
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+]
+"GenerateCountLeft":20
+"AmountLeft":2100000
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU活动(2515)"
+"Percentage":100
+"CostCenterValue":3144
+}
+]
+"CouponID":0
+"UserProductLineIDsName":"机票"
+"IsLimitTime":"T"
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773716400000
+"CouponEndDate":1776704399000
+"LimitTimeTypeID":1
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR019009"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.000262075
+"CurrencyEnumValue":"VND"
+"CurrencySign":"₫"
+"CurrencyUnitName":"盾"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/flights"
+"AppURL":"ctripglobal://FlightSearch"
+"H5URL":"/m/flights"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":21
+"FloatDeductionAmount":0
+"UIDClaimCount":1
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"AmountLimit":2100000
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR019009"
+"IsImportant":true
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+07:00"
+"RemarkWrap":"Giảm 100.000 VNĐ"
+"TripConfig":{6 items
+"UseProductLineId":1
+"State":"INACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[2 items
+0:83
+1:85
+]
+"Locales":[1 item
+0:"VI_VN"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/flights"
+"TripAppUrl":"ctripglobal://FlightSearch"
+"TripH5Url":"/m/flights"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-27 10:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+4:{89 items
+"PromotionID":1292613170
+"Name":"id_ext(id)_htl60_0401/0630_bankmega_12am"
+"DisplayName":"HTMEGA60"
+"ShortName":"HTMEGA60"
+"CostTypeID":2
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":3
+"CouponTypeID":1
+"StartDate":1773729076233
+"DisableDate":1782838799000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Rp60,000 OFF (min. spend Rp750,000) Bank Mega Credit card *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"RemarkTmpl":"Rp60,000 OFF (min. spend Rp750,000) Bank Mega Credit card *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"ShortRemark":"HTMEGA60"
+"UserProductLineIDs":"2"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":100
+"ExternalAssumeType":0
+"InternalAssume":0
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":750000
+"DeductionType":0
+"DeductionAmount":60000
+"ExchangeRate":0.000405236
+"CurrencyEnumValue":"IDR"
+"CurrencySign":"Rps"
+"CurrencyUnitName":"卢比"
+}
+]
+"GenerateCountLeft":0
+"CountLeft":110
+"UseStation":"10,110,80,83,85,90"
+"CouponID":0
+"CouponCode":"HTMEGA60"
+"UserProductLineIDsName":"酒店"
+"promoSupplierList":[1 item
+0:{4 items
+"SupplierName":"ext"
+"SupplierId":"ext"
+"PayMoney":100
+"SupplierType":0
+}
+]
+"IsLimitTime":"F"
+"CouponStartDate":1773729076233
+"CouponEndDate":1782838799000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773729076233
+"CouponEndDate":1782838799000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"S13862"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.000405236
+"CurrencyEnumValue":"IDR"
+"CurrencySign":"Rps"
+"CurrencyUnitName":"卢比"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/hotels"
+"AppURL":"ctripglobal://hotel/hotelSearch"
+"H5URL":"/m/hotels"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"CountLimit":110
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":1
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"jinyj"
+"IsImportant":false
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+07:00"
+"RemarkWrap":"Rp60,000 OFF (min. spend Rp750,000) Bank Mega Credit card *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"TripConfig":{6 items
+"UseProductLineId":2
+"State":"INACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[4 items
+0:83
+1:85
+2:90
+3:110
+]
+"Locales":[2 items
+0:"EN_ID"
+1:"ID_ID"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/hotels"
+"TripAppUrl":"ctripglobal://hotel/hotelSearch"
+"TripH5Url":"/m/hotels"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-04-01 00:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"UseDeviceTypeLimit":"1"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+5:{88 items
+"PromotionID":1106199489
+"Name":"2026-TH-KTC-HTL-480(8K)-18 Mar 12am(TOPUP)"
+"DisplayName":"Hotel 480"
+"ShortName":"Hotel 480"
+"CostTypeID":2
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":3
+"CouponTypeID":1
+"StartDate":1773733304590
+"DisableDate":1798736399000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Hotel 480"
+"RemarkTmpl":"Hotel 480"
+"ShortRemark":"Hotel 480"
+"UserProductLineIDs":"2"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":100
+"ExternalAssumeType":0
+"InternalAssume":0
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":8000
+"DeductionType":0
+"DeductionAmount":480
+"ExchangeRate":0.212371
+"CurrencyEnumValue":"THB"
+"CurrencySign":"฿"
+"CurrencyUnitName":"铢"
+}
+]
+"GenerateCountLeft":0
+"CountLeft":50
+"UseStation":"10,110,80,83,85,90"
+"CouponID":0
+"CouponCode":"KTCMC26H1"
+"UserProductLineIDsName":"酒店"
+"promoSupplierList":[1 item
+0:{4 items
+"SupplierName":"KTC"
+"SupplierId":"N032603160092"
+"PayMoney":100
+"SupplierType":0
+}
+]
+"IsLimitTime":"F"
+"CouponStartDate":1773733304590
+"CouponEndDate":1798736399000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773733304590
+"CouponEndDate":1798736399000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR019009"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.212371
+"CurrencyEnumValue":"THB"
+"CurrencySign":"฿"
+"CurrencyUnitName":"铢"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/hotels"
+"AppURL":"ctripglobal://hotel/hotelSearch"
+"H5URL":"/m/hotels"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"CountLimit":50
+"UidUseType":0
+"UidUseCount":0
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR019009"
+"IsImportant":false
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+07:00"
+"RemarkWrap":"Hotel 480"
+"TripConfig":{6 items
+"UseProductLineId":2
+"State":"ACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[4 items
+0:90
+1:110
+2:83
+3:85
+]
+"Locales":[2 items
+0:"TH_TH"
+1:"EN_TH"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/hotels"
+"TripAppUrl":"ctripglobal://hotel/hotelSearch"
+"TripH5Url":"/m/hotels"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-18 00:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+6:{89 items
+"PromotionID":1409801629
+"Name":"sg_1840_htl25_0404/0531_govietnam_12pm"
+"DisplayName":"STAYVN"
+"ShortName":"STAYVN"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":3
+"CouponTypeID":1
+"StartDate":1773712690689
+"DisableDate":1780243199000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"S$25 OFF (min. spend S$350) Vietnam hotels *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"RemarkTmpl":"S$25 OFF (min. spend S$350) Vietnam hotels *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"ShortRemark":"STAYVN"
+"UserProductLineIDs":"2"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[1 item
+0:{7 items
+"StartAmount":350
+"DeductionType":0
+"DeductionAmount":25
+"ExchangeRate":5.38555
+"CurrencyEnumValue":"SGD"
+"CurrencySign":"S$"
+"CurrencyUnitName":"元"
+}
+]
+"GenerateCountLeft":0
+"CountLeft":40
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU区域市场-新加坡&马来西亚&印尼(1840)"
+"Percentage":100
+"CostCenterValue":2376
+}
+]
+"CouponID":0
+"CouponCode":"STAYVN"
+"UserProductLineIDsName":"酒店"
+"IsLimitTime":"F"
+"CouponStartDate":1773712690689
+"CouponEndDate":1780243199000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773712690689
+"CouponEndDate":1780243199000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"S13862"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":5.38555
+"CurrencyEnumValue":"SGD"
+"CurrencySign":"S$"
+"CurrencyUnitName":"元"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/hotels"
+"AppURL":"ctripglobal://hotel/hotelSearch"
+"H5URL":"/m/hotels"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"CountLimit":40
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":1
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"jinyj"
+"IsImportant":false
+"CreaterProductLineID":5
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+08:00"
+"RemarkWrap":"S$25 OFF (min. spend S$350) Vietnam hotels *The promo code is valid on designated platform only. Please refer to T&Cs and switch to the eligible locale."
+"TripConfig":{6 items
+"UseProductLineId":2
+"State":"INACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[2 items
+0:83
+1:85
+]
+"Locales":[2 items
+0:"EN_SG"
+1:"ZH_SG"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/hotels"
+"TripAppUrl":"ctripglobal://hotel/hotelSearch"
+"TripH5Url":"/m/hotels"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-04-04 12:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"UseDeviceTypeLimit":"1"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+7:{88 items
+"PromotionID":1787957361
+"Name":"GO CN RU flight 3-tier coupon 17/03 12:00"
+"DisplayName":"WORLD"
+"ShortName":"WORLD"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":3
+"CouponTypeID":1
+"StartDate":1773716894076
+"DisableDate":1774299599000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":3
+"Remark":"Discount on airline tickets from Russia or with return to Russia: for purchases of 15,000₽ - discount of 450₽ / for purchases of 30,000₽ - discount of 900₽ / for purchases of 60,000₽ - discount of 1,800₽ Applicable for a single booking on airline tickets from Russia to China with departure dates from 17.03.2026 to 30.09.2026 (GMT+3) After activation, promo codes are valid from 17.03.2026 to 23.03.2026 (GMT+3) The promotion operates on a "first come, first served" basis, with a limited quantity available"
+"RemarkTmpl":"Discount on airline tickets from Russia or with return to Russia: for purchases of 15,000₽ - discount of 450₽ / for purchases of 30,000₽ - discount of 900₽ / for purchases of 60,000₽ - discount of 1,800₽ Applicable for a single booking on airline tickets from Russia to China with departure dates from 17.03.2026 to 30.09.2026 (GMT+3) After activation, promo codes are valid from 17.03.2026 to 23.03.2026 (GMT+3) The promotion operates on a "first come, first served" basis, with a limited quantity available"
+"ShortRemark":"WORLD"
+"UserProductLineIDs":"1"
+"CostInfoType":1
+"ProfitsAgainst":0
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":100
+"DeductionStrategy":[3 items
+0:{7 items
+"StartAmount":15000
+"DeductionType":0
+"DeductionAmount":450
+"ExchangeRate":0.0845
+"CurrencyEnumValue":"RUB"
+"CurrencySign":"RUB"
+"CurrencyUnitName":"俄罗斯卢布"
+}
+1:{7 items
+"StartAmount":30000
+"DeductionType":0
+"DeductionAmount":900
+"ExchangeRate":0.0845
+"CurrencyEnumValue":"RUB"
+"CurrencySign":"RUB"
+"CurrencyUnitName":"俄罗斯卢布"
+}
+2:{7 items
+"StartAmount":60000
+"DeductionType":0
+"DeductionAmount":1800
+"ExchangeRate":0.0845
+"CurrencyEnumValue":"RUB"
+"CurrencySign":"RUB"
+"CurrencyUnitName":"俄罗斯卢布"
+}
+]
+"GenerateCountLeft":0
+"CountLeft":5
+"UseStation":"10,110,80,83,85,90"
+"CostCenterDistributionList":[1 item
+0:{3 items
+"CostCenterName":"上海-IBU区域市场-新兴市场(3036)"
+"Percentage":100
+"CostCenterValue":3664
+}
+]
+"CouponID":0
+"CouponCode":"WORLD"
+"UserProductLineIDsName":"机票"
+"IsLimitTime":"F"
+"CouponStartDate":1773716894076
+"CouponEndDate":1774299599000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773716894076
+"CouponEndDate":1774299599000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR053011"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.0845
+"CurrencyEnumValue":"RUB"
+"CurrencySign":"RUB"
+"CurrencyUnitName":"俄罗斯卢布"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"/flights"
+"AppURL":"ctripglobal://FlightSearch"
+"H5URL":"/m/flights"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"CountLimit":80
+"UidUseType":2
+"UidUseCount":1
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR053011"
+"IsImportant":false
+"CreaterProductLineID":2
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+03:00"
+"RemarkWrap":"Discount on airline tickets from Russia or with return to Russia: for purchases of 15,000₽ - discount of 450₽ / for purchases of 30,000₽ - discount of 900₽ / for purchases of 60,000₽ - discount of 1,800₽ Applicable for a single booking on airline tickets from Russia to China with departure dates from 17.03.2026 to 30.09.2026 (GMT+3) After activation, promo codes are valid from 17.03.2026 to 23.03.2026 (GMT+3) The promotion operates on a "first come, first served" basis, with a limited quantity available"
+"TripConfig":{6 items
+"UseProductLineId":1
+"State":"ACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":1
+"UseStations":[4 items
+0:83
+1:85
+2:110
+3:90
+]
+"Locales":[1 item
+0:"RU_RU"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"/flights"
+"TripAppUrl":"ctripglobal://FlightSearch"
+"TripH5Url":"/m/flights"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-17 12:00:00"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+8:{86 items
+"PromotionID":1839258555
+"Name":"【营销】TRIP-国际租车-2026租车体验券149000韩币（价值100usd）-20260317-hq"
+"DisplayName":"租车立减KRW 149000"
+"ShortName":"租车立减KRW 149000"
+"CostTypeID":1
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":2
+"CouponTypeID":3
+"StartDate":1773676800000
+"DisableDate":1798732799000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":1
+"Remark":"1.优惠券适用于Trip租车全额预付产品（在线支付），预付金额立减149000 KRW（部分套餐不适用，以订单情况为准）；\\2.优惠券有效期至2026年12月31日；\\3.每张订单限用一张优惠券，每张优惠券限用一次，不与其他优惠同享。\\4.优惠券不能兑换为现金或Trip Coins；\\5.Trip.com有权立即取消恶意用户（包括但不限于欺诈账户和预订、利用软件漏洞或参与任何旅行行为的用户）的任何促销优惠和相关预订，而无需事先通知，此次促销数量有限，先到先得，Trip.com保留最终解释权。"
+"RemarkTmpl":"1.优惠券适用于Trip租车全额预付产品（在线支付），预付金额立减149000 KRW（部分套餐不适用，以订单情况为准）；\\2.优惠券有效期至2026年12月31日；\\3.每张订单限用一张优惠券，每张优惠券限用一次，不与其他优惠同享。\\4.优惠券不能兑换为现金或Trip Coins；\\5.Trip.com有权立即取消恶意用户（包括但不限于欺诈账户和预订、利用软件漏洞或参与任何旅行行为的用户）的任何促销优惠和相关预订，而无需事先通知，此次促销数量有限，先到先得，Trip.com保留最终解释权。"
+"ShortRemark":"内部体验专享"
+"UserProductLineIDs":"18,65"
+"CostInfoType":1
+"ProfitsAgainst":100
+"ExternalAssume":0
+"ExternalAssumeType":0
+"InternalAssume":0
+"DeductionStrategy":[1 item
+0:{6 items
+"DeductionType":0
+"DeductionAmount":149000
+"ExchangeRate":0.004619
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+]
+"GenerateCountLeft":19
+"AmountLeft":100000000
+"UseStation":"10,110,80,83,85,90"
+"CouponID":0
+"UserProductLineIDsName":"用车,境外租车"
+"IsLimitTime":"T"
+"CouponStartDate":1773676800000
+"CouponEndDate":1798732799000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773676800000
+"CouponEndDate":1798732799000
+"LimitTimeTypeID":1
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"S80357"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.004619
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"PcURL":"https://kr.trip.com/carhire/"
+"AppURL":"/rn_ibu_car_app/_crn_config?CRNModuleName=rn_ibu_car_app&CRNType=1&initialPage=Market&st=ser&fromurl=common&landingto=Home&apptype=OSD_T_APP"
+"H5URL":"https://kr.trip.com/carhire/"
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":20
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"AmountLimit":100000000
+"UidUseType":0
+"UidUseCount":0
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"S80357"
+"IsImportant":false
+"CreaterProductLineID":3
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+08:00"
+"RemarkWrap":"1.优惠券适用于Trip租车全额预付产品（在线支付），预付金额立减149000 KRW（部分套餐不适用，以订单情况为准）；\\2.优惠券有效期至2026年12月31日；\\3.每张订单限用一张优惠券，每张优惠券限用一次，不与其他优惠同享。\\4.优惠券不能兑换为现金或Trip Coins；\\5.Trip.com有权立即取消恶意用户（包括但不限于欺诈账户和预订、利用软件漏洞或参与任何旅行行为的用户）的任何促销优惠和相关预订，而无需事先通知，此次促销数量有限，先到先得，Trip.com保留最终解释权。"
+"TripConfig":{6 items
+"UseProductLineId":18
+"State":"ACTIVE"
+"ConditionConfigs":[1 item
+0:{3 items
+"AccountType":0
+"UseStations":[4 items
+0:90
+1:110
+2:83
+3:85
+]
+"Locales":[1 item
+0:"KO_KR"
+]
+}
+]
+"FirstOrderType":0
+"UrlConfig":{3 items
+"TripPcUrl":"https://kr.trip.com/carhire/"
+"TripAppUrl":"/rn_ibu_car_app/_crn_config?CRNModuleName=rn_ibu_car_app&CRNType=1&initialPage=Market&st=ser&fromurl=common&landingto=Home&apptype=OSD_T_APP"
+"TripH5Url":"https://kr.trip.com/carhire/"
+}
+"ActiveConfig":{2 items
+"RepeatType":"NONE"
+"Content":{1 item
+"DateRanges":[1 item
+0:{1 item
+"StartDate":"2026-03-17 16:31:15"
+}
+]
+}
+}
+}
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+9:{83 items
+"PromotionID":1267112694
+"Name":"[Kookmin] All hotel 2% promotion 2603"
+"DisplayName":"ko-kr_Kookmin All hotel 2% promotion 2603"
+"ShortName":"ko-kr_Kookmin All hotel 2% promotion 2603"
+"CostTypeID":3
+"PromotionMethodID":1
+"promotionStatus":4
+"UnitTypeID":2
+"LimitTypeID":2
+"CouponTypeID":1
+"StartDate":1773124967000
+"DisableDate":1774972799000
+"AccountProductLineID":-1
+"CostAccountingTypeID":-1
+"CosterProductLineID":-1
+"DeductionStrategyTypeID":2
+"Remark":"ko-kr_Kookmin All hotel 2% promotion 2603"
+"RemarkTmpl":"ko-kr_Kookmin All hotel 2% promotion 2603"
+"ShortRemark":"ko-kr_Kookmin All hotel 2% promotion 2603"
+"UserProductLineIDs":"2,4,35,36,128,133,74"
+"CostInfoType":1
+"ProfitsAgainst":50
+"ExternalAssume":50
+"ExternalAssumeType":0
+"InternalAssume":0
+"DeductionStrategy":[1 item
+0:{6 items
+"DeductionType":1
+"DeductionAmount":2
+"ExchangeRate":0.004621
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+]
+"GenerateCountLeft":0
+"AmountLeft":60000000
+"UseStation":"10,110,80,83,85,90"
+"CouponID":0
+"CouponCode":"gkhaschiag"
+"UserProductLineIDsName":"酒店,酒店预售,民宿,行李寄送,月租房,支付"
+"promoSupplierList":[2 items
+0:{4 items
+"SupplierName":"Kookmin card"
+"SupplierId":"Kookmin card"
+"PayMoney":50
+"SupplierType":0
+}
+1:{3 items
+"SupplierId":"interal HBU"
+"PayMoney":50
+"SupplierType":2
+}
+]
+"IsLimitTime":"F"
+"CouponStartDate":1773124967000
+"CouponEndDate":1774972799000
+"LimitTimeSetting":{8 items
+"DynamicEffectiveMINValue":0
+"DynamicEffectiveMAXValue":0
+"DynamicEffectiveMINValueUnit":"d"
+"DynamicEffectiveMAXValueUnit":"d"
+"IsLimitToPromotionEndTime":true
+"CouponStartDate":1773124967000
+"CouponEndDate":1774972799000
+"LimitTimeTypeID":0
+}
+"ProductLineID":0
+"IsRecommended":0
+"CreateUser":"TR024520"
+"AppLimit":0
+"MyCouponID":0
+"IsRead":false
+"CurrencyInfo":{4 items
+"ExchangeRate":0.004621
+"CurrencyEnumValue":"KRW"
+"CurrencySign":"₩"
+"CurrencyUnitName":"元"
+}
+"SceneType":0
+"CouponBackMethodType":0
+"AmountPoolState":0
+"CouponTotalAmount":0
+"CouponAvailableAmount":0
+"CouponUsedAmount":0
+"GenerateCountLimit":0
+"FloatDeductionAmount":0
+"UIDClaimCount":0
+"UIDPeriodClaimLimit":0
+"DeviceClaimLimit":0
+"CouponLimitTypeID":0
+"CouponTotalCount":0
+"CouponAvailableCount":0
+"CouponUsedCount":0
+"DisplayMode":0
+"CouponUidUseCount":0
+"DisplayOnFrontEnd":0
+"ExtensionType":0
+"AmountLimit":60000000
+"UidUseType":0
+"UidUseCount":0
+"DeviceUseLimit":0
+"UseAndClaimDeviceIsSame":false
+"RealBudget":0
+"CollectDate":-62135596800000
+"ActivityUser":"TR017527"
+"IsImportant":false
+"CreaterProductLineID":74
+"CardNoClaimLimit":0
+"CardNoUseLimit":0
+"IsRealNameCoupon":false
+"IsSharePromotionLimitRule":false
+"RealNameCardType":0
+"Timezone":"+08:00"
+"NewRealNameCardType":"0"
+"PhoneClaimCount":0
+"PhoneUseCount":0
+"IsPayCoupon":false
+}
+]
+}
+"code":"000000"
+"message":NULL
+}
