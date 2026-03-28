@@ -47,32 +47,18 @@ echo "----------------------------------------"
 echo "报告文件：$LATEST_REPORT"
 echo ""
 
-# 4. 推送飞书消息（通过工具）
-echo "📤 步骤 3: 准备推送"
+# 4. 推送飞书消息（使用富文本格式）
+echo "📤 步骤 3: 生成推送消息"
 echo "----------------------------------------"
 
-# 提取报告的关键信息（前 50 行）
-SUMMARY=$(head -50 "$LATEST_REPORT")
-
-cat << EOF
-
-========================================
-📋 推送内容预览
-========================================
-
-$SUMMARY
-
-========================================
-推送目标：杨荣 (ou_b148c321fa9f39bda5a30abab40118d7)
-推送方式：飞书私信
-========================================
-
-EOF
+# 使用新的推送脚本（生成飞书富文本格式）
+"$SCRIPTS_DIR/push-weekly-report.sh" "$LATEST_REPORT"
 
 echo ""
 echo "✅ 监控执行完成"
 echo ""
 echo "📝 下一步："
-echo "   1. 查看完整报告：$LATEST_REPORT"
-echo "   2. 手动推送或使用 feishu_im_user_message 工具发送"
+echo "   1. 复制上面的 content JSON"
+echo "   2. 使用 feishu_im_user_message 工具发送"
+echo "   3. 或查看完整报告：$LATEST_REPORT"
 echo ""

@@ -23,6 +23,9 @@ DRY_RUN=true ./scripts/memory-compact.sh
 
 # 生成周报
 ./scripts/memory-monitor.sh
+
+# 推送周报（飞书富文本格式）
+./scripts/push-weekly-report.sh memory/reports/weekly-report-2026-W12.md
 ```
 
 ### 查看日志
