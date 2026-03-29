@@ -249,3 +249,51 @@ git push origin master
 - **记忆系统**: OpenClaw 内置记忆系统 (文件 + SQLite)
 - **版本控制**: Git + GitHub (私有仓库)
 - **CLI 工具**: GitHub CLI (gh v2.87.3)
+
+---
+
+## 🧠 记忆系统配置
+
+### Ollama 向量嵌入（2026-03-28 恢复）
+
+**背景**: 2026-03-10 至 2026-03-28 期间，因 `node-llama-cpp` 依赖缺失导致向量嵌入不可用，记忆同步停止 18 天。
+
+**修复方案**: 安装 Ollama 作为外部嵌入提供者
+
+| 配置项 | 值 |
+|--------|-----|
+| **Ollama 版本** | v0.18.3 |
+| **运行模式** | CPU-only（无 NVIDIA/AMD GPU） |
+| **API 地址** | http://localhost:11434 |
+| **嵌入模型** | nomic-embed-text:latest |
+| **模型大小** | 274 MB |
+| **配置文件** | `/home/rskuser/.openclaw/openclaw.json` |
+
+**配置内容**:
+```json
+{
+  "agents": {
+    "defaults": {
+      "memorySearch": {
+        "provider": "ollama",
+        "remote": {
+          "baseUrl": "http://localhost:11434"
+        }
+      }
+    }
+  }
+}
+```
+
+**会话恢复**: 8 个会话文件（2026-03-17 至 2026-03-28，约 450 条消息）已恢复到 `memory/recovered/`
+
+**验证状态**:
+- [ ] Gateway 重启成功
+- [ ] 记忆搜索功能正常
+- [ ] 新对话自动保存到记忆系统
+- [ ] 向量检索 + 关键词混合检索生效
+
+**经验教训**:
+1. 定期监控记忆系统状态（每周检查 `openclaw memory status`）
+2. 配置会话记录定期备份（JSONL → Markdown）
+3. 安装后验证 `node-llama-cpp` 状态
