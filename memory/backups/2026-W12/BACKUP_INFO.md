@@ -1,9 +1,9 @@
 # 记忆备份信息
 
-**备份时间**: 2026-03-28 16:06:58  
+**备份时间**: 2026-03-29 23:08:14  
 **备份周期**: 2026-W12  
-**文件数量**: 5  
-**总大小**: 17KiB  
+**文件数量**: 8  
+**总大小**: 27KiB  
 **保留策略**: 最近 12 周
 
 ## 恢复说明
@@ -18,5 +18,8 @@
 - 2026-03-28.md
 - BACKUP_INFO.md
 - deepanalyze-config.md
+- FEISHU-MESSAGE-FORMAT.md
 - MEMORY-COMPACT-GUIDE.md
+- QUICK-REFERENCE.md
 - README.md
+- TASK-SCHEDULE.md
