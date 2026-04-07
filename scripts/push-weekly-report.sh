@@ -111,7 +111,18 @@ echo "   • 使用 post 消息类型（飞书富文本）"
 echo "   • 表格→列表格式（飞书私信不支持表格）"
 echo "   • 支持点击链接查看完整报告"
 echo ""
-echo "📝 下一步："
-echo "   1. 复制上面的命令"
-echo "   2. 在终端执行（会自动调用飞书 API）"
-echo "   3. 或集成到 HEARTBEAT.md 自动执行"
+echo "📝 执行飞书 API 调用..."
+
+# 调用 OpenClaw message send 命令
+cd "$WORKSPACE"
+openclaw message send \
+  --channel feishu \
+  --target "user:$FEISHU_RECEIVE_ID" \
+  --message "$TEXT_CONTENT"
+
+if [ $? -eq 0 ]; then
+    echo "✅ 飞书消息推送成功"
+else
+    echo "❌ 飞书消息推送失败"
+    exit 1
+fi
