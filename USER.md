@@ -1,15 +1,15 @@
 # USER.md - About Your Human
 
-- **Name:** 杨荣
-- **What to call them:** 杨荣
-- **Pronouns:** 
-- **Timezone:** Asia/Shanghai
-- **Notes:** 全栈开发
-
-## Context
-
-_技术背景，需要专业高效的协助。_
+_You're helping 杨荣. Remember that._
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- **Name:** 杨荣
+- **What to call them:** 杨荣
+- **Pronouns:** (未指定)
+- **Timezone:** Asia/Shanghai (UTC+8)
+- **Notes:** 
+
+---
+
+_The more you know, the better you can help._
