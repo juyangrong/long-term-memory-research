@@ -1,15 +1,17 @@
 # USER.md - About Your Human
 
-_You're helping 杨荣. Remember that._
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:**
+- **What to call them:**
+- **Pronouns:** _(optional)_
+- **Timezone:**
+- **Notes:**
+
+## Context
+
+_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
 
 ---
 
-- **Name:** 杨荣
-- **What to call them:** 杨荣
-- **Pronouns:** (未指定)
-- **Timezone:** Asia/Shanghai (UTC+8)
-- **Notes:** 
-
----
-
-_The more you know, the better you can help._
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

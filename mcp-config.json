@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "zeus-mcp": {
+      "type": "http",
+      "description": "根据作业 id，运行 ID 获取运行日志等信息",
+      "url": "http://zeus-osg-mcp-function.faas.ctripcorp.com/mcp",
+      "serverUrl": "http://zeus-osg-mcp-function.faas.com/mcp",
+      "headers": {
+        "x-bbzai-mcp-token": "ada_9989e898ece0b5f1fcd77d6756e4655ae34eb17001601e886d0e2078efca9c38"
+      }
+    },
+    "bigdata-metadata-api-mcp": {
+      "type": "http",
+      "description": "主数据：环境：sha; 大数据平台上各个数据源的元数据查询 mcp ; 数据 数据源包括 Hive(IceBerg,Paimon),BigQuery,StarRocks;",
+      "url": "http://metadata-osg-stream-function.faas.ctripcorp.com/mcp",
+      "server": "http://metadata-osg-stream-function.faas.ctripcorp.com/mcp",
+      "headers": {
+        "x-bbzai-mcp-token": "ada_9989e898ece0b5f1fcd77d6756e4655ae34eb17001601e886d0e2078efca9c38"
+      }
+    },
+    "user-feishu-mcp": {
+      "type": "http",
+      "description": "飞书个人文档 MCP - 支持读写飞书云文档",
+      "url": "https://mcp.larkenterprise.com/mcp/mcp_vfBUl9iS3Jzl_Hhamd3col99qUfBx4_pwz52lLsR1y9Uuwfuuoi9QfZbM2ycvk_0AT1CO6Y_v_I",
+      "serverUrl": "https://mcp.larkenterprise.com/mcp/mcp_vfBUl9iS3Jzl_Hhamd3col99qUfBx4_pwz52lLsR1y9Uuwfuuoi9QfZbM2ycvk_0AT1CO6Y_v_I",
+      "headers": {}
+    }
+  }
+}

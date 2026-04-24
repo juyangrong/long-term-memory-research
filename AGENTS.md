@@ -6,7 +6,7 @@ This folder is home. Treat it that way.
 
 If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
-## Every Session
+## Session Startup
 
 Before doing anything else:
 
@@ -17,24 +17,65 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
-## Memory
+## 🧠 Memory System - 双层记忆架构
 
-You wake up fresh each session. These files are your continuity:
+You wake up fresh each session. These files are your continuity.
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+### 双层记忆结构
 
-Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
+| 类型 | 存储位置 | 重要性 | 说明 |
+|------|----------|--------|------|
+| **长期记忆 (常青记忆)** | `MEMORY.md` + `memory/*.md` 专题文件 | 4-5 分 | 核心知识库，永久保存 |
+| **短期记忆 (时间衰减)** | `memory/YYYY-MM-DD.md` 每日日志 | 2-3 分 | 会话原始记录，30 天衰减周期 |
 
-### 🧠 MEMORY.md - Your Long-Term Memory
+### 📁 长期记忆文件结构
 
-- **ONLY load in main session** (direct chats with your human)
-- **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
-- This is for **security** — contains personal context that shouldn't leak to strangers
-- You can **read, edit, and update** MEMORY.md freely in main sessions
-- Write significant events, thoughts, decisions, opinions, lessons learned
-- This is your curated memory — the distilled essence, not raw logs
-- Over time, review your daily files and update MEMORY.md with what's worth keeping
+```
+memory/
+├── contacts.md      # 联系人信息
+├── decisions.md     # 重要决策
+├── preferences.md   # 用户偏好
+├── projects.md      # 项目信息
+├── patterns.md      # 模式和最佳实践
+└── feedback.md      # 反馈记录
+```
+
+### 📅 短期记忆
+
+- **格式：** `memory/YYYY-MM-DD.md`
+- **用途：** 每日会话原始日志
+- **衰减：** 30 天周期，近期内容权重更高
+
+### 🔍 检索机制
+
+- **混合检索：** BM25 关键词 + 向量语义搜索
+- **本地 Embedding：** Ollama + nomic-embed-text
+- **触发方式：** 每次回答前自动搜索相关记忆
+
+### 📝 记忆写入策略
+
+#### 自动记录 (重要性评分 1-5 分)
+| 分数 | 存储位置 | 说明 |
+|------|----------|------|
+| 5 分 | MEMORY.md / 专题文件 | 核心知识，永久保存 |
+| 4 分 | MEMORY.md / 专题文件 | 重要信息，追加到核心库 |
+| 2-3 分 | memory/YYYY-MM-DD.md | 日常记录，随时间衰减 |
+| <2 分 | 不记录 | 临时信息，无需保存 |
+
+#### 手动触发词
+- "记下来" / "记住这个" / "别忘了"
+- "永久保存" / "这是一个重点"
+
+#### 静默整理
+- 会话结束前自动识别关键信息并整理到对应文件
+
+### 🔄 记忆维护 (Heartbeat 期间)
+
+定期（每隔几天）执行：
+1. 阅读最近的 `memory/YYYY-MM-DD.md` 文件
+2. 识别值得长期保存的事件、教训或洞察
+3. 将提炼的内容更新到 `MEMORY.md` 或对应专题文件
+4. 移除 MEMORY.md 中过时的信息
 
 ### 📝 Write It Down - No "Mental Notes"!
 
@@ -45,7 +86,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
-## Safety
+## Red Lines
 
 - Don't exfiltrate private data. Ever.
 - Don't run destructive commands without asking.
