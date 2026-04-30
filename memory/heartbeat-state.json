@@ -1,9 +1,10 @@
 {
   "lastChecks": {
-    "memory_consolidation": 1777030274604,
-    "messages": 1777030274604,
-    "lastHeartbeat": "2026-04-25T00:01:00+08:00",
-    "monthlyReview": "2026-04-01T13:01:00+08:00"
+    "memory_consolidation": 1745863260000,
+    "messages": 17458633260000,
+    "lastHeartbeat": "2026-04-29T03:51:00+08:00",
+    "monthlyReview": "2026-04-01T13:01:00+08:00",
+    "weeklyCheck": "2026-04-27T09:00:00+08:00"
   },
-  "notes": "Monthly review completed on 2026-04-01. No new data to consolidate (latest daily log: 2026-03-28). No unread messages. Nighttime heartbeat check completed on 2026-04-25 00:01 (routine check)."
+  "notes": "Weekly check completed on 2026-04-27 09:00 (Monday). No new daily logs to consolidate from W16 (April 20-26) or W17 (April 27-28). W16 weekly report generated showing no task executions. Monthly review next due on May 1st. Evening heartbeat check (19:31) - all quiet. Late night check (03:51) - all quiet. Morning check (09:51) - all quiet. Afternoon check (15:51) - all quiet. Late night check (01:51, Apr 29) - all quiet. Early morning check (02:21, Apr 29) - all quiet. Early morning check (03:21, Apr 29) - all quiet. Early morning check (03:51, Apr 29) - all quiet, no action needed."
 }
